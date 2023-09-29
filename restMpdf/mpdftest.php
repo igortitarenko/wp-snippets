@@ -13,7 +13,7 @@ License: A "Slug" license name e.g. GPL2
 include_once(__DIR__ . '/rest/RestMpdf.php');
 
 /**
- * Enqueues scripts.
+ * Enqueues scripts..
  *
  * @return void
  */
