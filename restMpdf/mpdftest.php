@@ -36,7 +36,7 @@ add_action('wp_enqueue_scripts', function (): void {
         [
             'root'  => esc_url_raw(rest_url()),
             'nonce' => wp_create_nonce('wp_rest'), // WP nonce
-            'nonce_local' => wp_create_nonce('restMpdf'), // Custom that prevents global access to the call
+            'nonce_local' => wp_create_nonce('restMpdf'), // Custom nonce that prevents global access to the call
         ],
     );
 
