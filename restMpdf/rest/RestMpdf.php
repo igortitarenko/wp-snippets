@@ -133,8 +133,6 @@ class RestMpdf
      * @param string $nonce
      *
      * @return bool
-     * @see $this->enqueueScript(...)
-     *
      */
     public function validateLocalNonce(string $nonce): bool
     {
